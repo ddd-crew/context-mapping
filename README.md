@@ -14,10 +14,9 @@ Here is a cheat sheet containing brief descriptions of the most important Contex
 
 ## Contributors
 
-Thank you to the following individuals who have all contributed to the Context Map Cheat Sheet:
+Thanks to all [existing and future contributors](https://github.com/ddd-crew/context-mapping/graphs/contributors) and to the following individuals who have all contributed to the Context Map Cheat Sheet:
 
 - [Kacper Gunia](https://twitter.com/cakper)
-- [Michael Plöd](https://twitter.com/bitboss)
 - [Nick Tune](https://github.com/ntcoding)
 
 ## Contributions and Feedback
