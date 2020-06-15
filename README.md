@@ -27,6 +27,8 @@ If you have questions you can ping us or open an [Issue](https://github.com/ddd-
 
 Feel free to also send us a pull request with your examples or experience reports.
 
+You can also comment directly on the [Miro board of the Context Map Cheat Sheet](https://miro.com/app/board/o9J_kqrI8ck=/)
+
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a [Creative Commons Attribution 4.0 International
