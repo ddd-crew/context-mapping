@@ -1,9 +1,21 @@
 # Context Mapping
 
 ## Context Map Cheat Sheet
+
 Here is a cheat sheet containing brief descriptions of the most important Context Mapping patterns:
 
 ![Context Map Cheat Sheet](resources/context-map-cheat-sheet.png)
+
+## Remote Context Mapping Starter Kit for Miro
+
+If you perform context mapping with Miro, there is a board backup that gets you started with all the objects for the patterns, team relationships and boundaries. In addition to that the Miro board contains a few examples to get you started:
+
+![Remote Context Mapping Starter Kit for Miro](resources/RemoteContextMappingStarterKit.jpg)
+
+[Link to Miro Board Backup](resources/Remote-Context-Mapping-Starter-Kit.rtb)
+
+You can also check out (and comment) [a read-only version of the starter kit on Miro](https://miro.com/app/board/o9J_kqtuB6A=/)
+
 
 ## Further Reading
 
