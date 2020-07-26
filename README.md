@@ -20,6 +20,9 @@ If you perform context mapping with Miro, there is a board backup that gets you 
 
 You can also check out (and comment) [a read-only version of the starter kit on Miro](https://miro.com/app/board/o9J_kqtuB6A=/)
 
+## Context Mapping with Context Mapper
+
+If you want to maintain your context maps in your code repo, [Context Mapper](https://contextmapper.org/docs/home/) allows you to describe your context in a text file and generate a diagram from it. It also include plugins for [Eclipse](https://contextmapper.org/docs/eclipse/) and [Visual Studio Code](https://contextmapper.org/docs/vs-code/).
 
 ## Further Reading
 
