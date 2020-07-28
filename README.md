@@ -22,7 +22,7 @@ You can also check out (and comment) [a read-only version of the starter kit on 
 
 ## Context Mapping with Context Mapper
 
-If you want to maintain your context maps in your code repo, [Context Mapper](https://contextmapper.org/docs/home/) allows you to describe your context in a text file and generate a diagram from it. It also include plugins for [Eclipse](https://contextmapper.org/docs/eclipse/) and [Visual Studio Code](https://contextmapper.org/docs/vs-code/).
+If you want to maintain your context maps in your code repo, [Context Mapper](https://contextmapper.org/) allows you to describe your contexts in a text file and generate a diagram from it. [Context Mapper](https://contextmapper.org/) is available [online (in the browser via Gitpod)](https://contextmapper.org/docs/online-ide/) or via IDE plugins for [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=contextmapper.context-mapper-vscode-extension) and [Eclipse](https://marketplace.eclipse.org/content/context-mapper/).
 
 ## Further Reading
 
