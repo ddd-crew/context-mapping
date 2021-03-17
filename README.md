@@ -45,30 +45,26 @@ The team providing an Open-host Service is usually in an upstream position where
 #### Partnership
 
 "Where development failure in either of two contexts would result in delivery failure for both, forge a partnership between the teams in charge of the two contexts. Institute a process for coordinated planning of development and joint management of integration. 
-
 The teams must cooperate on the evolution of their interfaces to accommodate the development needs of both systems. Interdependent features should be scheduled so that they are completed for the same release." ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
 
 #### Customer/Supplier Development
 
-"When two teams are in an upstream-­downstream relationship, where the upstream team may succeed independently of the fate of the downstream team, the needs of the downstream come to be addressed in a variety of ways with a wide range of consequences.
-
-[...]
-
-Establish a clear customer/supplier relationship between the two teams, meaning downstream priorities factor into upstream planning. Negotiate and budget tasks for downstream requirements so that everyone understands the commitment and schedule." ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
+"When two teams are in an upstream-­downstream relationship, where the upstream team may succeed independently of the fate of the downstream team, the needs of the downstream come to be addressed in a variety of ways with a wide range of consequences. [...] Establish a clear customer/supplier relationship between the two teams, meaning downstream priorities factor into upstream planning. Negotiate and budget tasks for downstream requirements so that everyone understands the commitment and schedule." ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
 
 #### Published Language
 
-"The translation between the models of two bounded contexts requires a common language.
-
-[...]
-
-Use a well-documented shared language that can express the necessary domain information as a common medium of communication, translating as necessary into and out of that language." ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
+"The translation between the models of two bounded contexts requires a common language. [...] Use a well-documented shared language that can express the necessary domain information as a common medium of communication, translating as necessary into and out of that language." ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
 
 Widely known examples for a Published Language are iCalendar or vCard. Published language is often combined with an open-host service.
 
 #### Separate Ways
 
+When two bounded contexts have no significant relationship they can be separated.
+"Declare a bounded context to have no connection to the others at all, allowing developers to find simple, specialized solutions within this small scope" ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
+
 #### Big Ball Of Mud
+
+A (part of a) system which is a mess by having mixed models and inconsistent boundaries. Don't let this lousy model propagate into the other Bounded Contexts. Big Ball Of Mud is a demarcation of a bad model or system quality. You want to make sure, that this mess does not propagate into other bounded contexts.
 
 ## Context Map Cheat Sheet
 
