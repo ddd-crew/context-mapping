@@ -4,6 +4,72 @@ Context Maps describe the contact between bounded contexts and teams with a coll
 
 Context Maps can be used to analyze existing systems or application landscapes but they are also suitable for upfront design considerations. However, we have realized that many folks struggle to get started with the context mapping patterns based on the definitions in the exsiting DDD books. This GitHub repository aims to give you some help with context maps with a cheat sheet and a starter kit for Miro.
 
+## Overview of the context map team relationships and patterns
+
+### Team Relationships
+
+#### Mutually Dependent
+
+Two teams or bounded contexts are mutually dependent when their software artifacts or systems need to be delivered together to be successful and work. You will often see a close, reciprocal link between data, functionality and capabilities of these teams. Those teams also need a lot of communication between each ofther in order to coordinate their efforts (see Partnership pattern).
+
+#### Upstream Downstream
+
+Actions of an upstream team will have an effect on the downstream team, but actions of the downstream do not have a significant impact on the upstream team. "The upstream team may succeed independently of the fate of the downstream team" (Quote from the [DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/)).
+
+#### Free
+
+A Bounded Context or a team that works in it is free if changes in other Bounded Contexts do not influence its success or failure. There is, therefore, no organizational or technical link of any kind between these teams.
+
+### Context Map Patterns
+
+Most publications in the Domain-Driven Design community currently describe nine context mapping patterns. 
+
+#### Open-host Service
+
+"A protocol that gives access to your subsystem as a set of services. Open the protocol so that all who need to integrate with you can use it. Enhance and expand the protocol to handle new integration requirements, except when a single team has idiosyncratic needs. Then, use a one-off translator to augment the protocol for that special case so that the shared protocol can stay simple and coherent." ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
+
+The team providing an Open-host Service is usually in an upstream position whereas the clients using it are downstream teams. The teams on the downstream are free to be conformists or to build anticorruption layers.
+
+#### Conformist
+
+"Eliminate the complexity of translation between bounded contexts by slavishly adhering to the model of the upstream team. Although this cramps the style of the downstream designers and probably does not yield the ideal model for the application, choosing conformity enormously simplifies integration. Also, you will share a ubiquitous language with your upstream team. The upstream is in the driver’s seat, so it is good to make communication easy for them. Altruism may be sufficient to get them to share information with you." ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
+
+#### Anticorruption Layer
+
+"As a downstream client, create an isolating layer to provide your system with functionality of the upstream system in terms of your own domain model. This layer talks to the other system through its existing interface, requiring little or no modification to the other system. Internally, the layer translates in one or both directions as necessary between the two models." ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
+
+#### Shared Kernel
+
+"Designate with an explicit boundary some subset of the domain model that the teams agree to share. Keep this kernel small.Within this boundary, include, along with this subset of the model, the subset of code or of the database design associated with that part of the model. This explicitly shared stuff has special status, and shouldn’t be changed without consultation with the other team." ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
+
+#### Partnership
+
+"Where development failure in either of two contexts would result in delivery failure for both, forge a partnership between the teams in charge of the two contexts. Institute a process for coordinated planning of development and joint management of integration. 
+
+The teams must cooperate on the evolution of their interfaces to accommodate the development needs of both systems. Interdependent features should be scheduled so that they are completed for the same release." ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
+
+#### Customer/Supplier Development
+
+"When two teams are in an upstream-­downstream relationship, where the upstream team may succeed independently of the fate of the downstream team, the needs of the downstream come to be addressed in a variety of ways with a wide range of consequences.
+
+[...]
+
+Establish a clear customer/supplier relationship between the two teams, meaning downstream priorities factor into upstream planning. Negotiate and budget tasks for downstream requirements so that everyone understands the commitment and schedule." ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
+
+#### Published Language
+
+"The translation between the models of two bounded contexts requires a common language.
+
+[...]
+
+Use a well-documented shared language that can express the necessary domain information as a common medium of communication, translating as necessary into and out of that language." ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
+
+Widely known examples for a Published Language are iCalendar or vCard. Published language is often combined with an open-host service.
+
+#### Separate Ways
+
+#### Big Ball Of Mud
+
 ## Context Map Cheat Sheet
 
 Here is a cheat sheet containing brief descriptions of the context mapping patterns:
