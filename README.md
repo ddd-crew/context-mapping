@@ -10,13 +10,19 @@ Context Maps can be used to analyze existing systems or application landscapes b
 
 #### Mutually Dependent
 
+<img src="resources/mutual-dependent.jpg" alt="Mutually Dependent" width=300/>
+
 Two teams or bounded contexts are mutually dependent when their software artifacts or systems need to be delivered together to be successful and work. You will often see a close, reciprocal link between data, functionality and capabilities of these teams. Those teams also need a lot of communication between each ofther in order to coordinate their efforts (see Partnership pattern).
 
 #### Upstream Downstream
 
+<img src="resources/upstream-downstream.jpg" alt="Upstream / Downstream" width=300/>
+
 Actions of an upstream team will have an effect on the downstream team, but actions of the downstream do not have a significant impact on the upstream team. "The upstream team may succeed independently of the fate of the downstream team" (Quote from the [DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/)).
 
 #### Free
+
+<img src="resources/free.jpg" alt="Free" width=300/>
 
 A Bounded Context or a team that works in it is free if changes in other Bounded Contexts do not influence its success or failure. There is, therefore, no organizational or technical link of any kind between these teams.
 
@@ -26,32 +32,46 @@ Most publications in the Domain-Driven Design community currently describe nine 
 
 #### Open-host Service
 
+<img src="resources/ohs.jpg" alt="Open-host Service" height=150/>
+
 "A protocol that gives access to your subsystem as a set of services. Open the protocol so that all who need to integrate with you can use it. Enhance and expand the protocol to handle new integration requirements, except when a single team has idiosyncratic needs. Then, use a one-off translator to augment the protocol for that special case so that the shared protocol can stay simple and coherent." ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
 
 The team providing an Open-host Service is usually in an upstream position whereas the clients using it are downstream teams. The teams on the downstream are free to be conformists or to build anticorruption layers.
 
 #### Conformist
 
+<img src="resources/cf.jpg" alt="Conformist" height=150/>
+
 "Eliminate the complexity of translation between bounded contexts by slavishly adhering to the model of the upstream team. Although this cramps the style of the downstream designers and probably does not yield the ideal model for the application, choosing conformity enormously simplifies integration. Also, you will share a ubiquitous language with your upstream team. The upstream is in the driver’s seat, so it is good to make communication easy for them. Altruism may be sufficient to get them to share information with you." ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
 
 #### Anticorruption Layer
+
+<img src="resources/acl.jpg" alt="Anticorruption Layer" height=150/>
 
 "As a downstream client, create an isolating layer to provide your system with functionality of the upstream system in terms of your own domain model. This layer talks to the other system through its existing interface, requiring little or no modification to the other system. Internally, the layer translates in one or both directions as necessary between the two models." ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
 
 #### Shared Kernel
 
+<img src="resources/shared-kernel.jpg" alt="Shared Kernel" width=300/>
+
 "Designate with an explicit boundary some subset of the domain model that the teams agree to share. Keep this kernel small.Within this boundary, include, along with this subset of the model, the subset of code or of the database design associated with that part of the model. This explicitly shared stuff has special status, and shouldn’t be changed without consultation with the other team." ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
 
 #### Partnership
 
+<img src="resources/partnership.jpg" alt="Partnership" width=300/>
+
 "Where development failure in either of two contexts would result in delivery failure for both, forge a partnership between the teams in charge of the two contexts. Institute a process for coordinated planning of development and joint management of integration. 
 The teams must cooperate on the evolution of their interfaces to accommodate the development needs of both systems. Interdependent features should be scheduled so that they are completed for the same release." ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
 
-#### Customer/Supplier Development
+#### Customer / Supplier Development
+
+<img src="resources/customer-supplier.jpg" alt="Customer / Supplier" width=300/>
 
 "When two teams are in an upstream-­downstream relationship, where the upstream team may succeed independently of the fate of the downstream team, the needs of the downstream come to be addressed in a variety of ways with a wide range of consequences. [...] Establish a clear customer/supplier relationship between the two teams, meaning downstream priorities factor into upstream planning. Negotiate and budget tasks for downstream requirements so that everyone understands the commitment and schedule." ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
 
 #### Published Language
+
+<img src="Published Language" alt="resources/published-language.jpg" width=300/>
 
 "The translation between the models of two bounded contexts requires a common language. [...] Use a well-documented shared language that can express the necessary domain information as a common medium of communication, translating as necessary into and out of that language." ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
 
@@ -59,10 +79,14 @@ Widely known examples for a Published Language are iCalendar or vCard. Published
 
 #### Separate Ways
 
+<img src="resources/separate-ways.jpg" alt="Separate Ways" width=300/>
+
 When two bounded contexts have no significant relationship they can be separated.
 "Declare a bounded context to have no connection to the others at all, allowing developers to find simple, specialized solutions within this small scope" ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
 
 #### Big Ball Of Mud
+
+<img src="resources/bbom.jpg" alt="Big Ball Of Mud" width=300/>
 
 A (part of a) system which is a mess by having mixed models and inconsistent boundaries. Don't let this lousy model propagate into the other Bounded Contexts. Big Ball Of Mud is a demarcation of a bad model or system quality. You want to make sure, that this mess does not propagate into other bounded contexts.
 
