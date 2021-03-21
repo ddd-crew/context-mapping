@@ -90,6 +90,29 @@ When two bounded contexts have no significant relationship they can be separated
 
 A (part of a) system which is a mess by having mixed models and inconsistent boundaries. Don't let this lousy model propagate into the other Bounded Contexts. Big Ball Of Mud is a demarcation of a bad model or system quality. You want to make sure, that this mess does not propagate into other bounded contexts.
 
+## Best practices for Context Maps
+
+There is no need to put all the patterns and team relationships into one big context map. Such a context map will grow over time and it will become hard to understand. You will be forced to explain such a complex context map to big amount of various stakeholders who all have different perspectives due to their roles or the nature of their work. Therefore, it is recommended to mind those hints:
+
+- Prefer small context maps for explicit questions
+- Document and explain the patterns your are going to use
+- Work with different perspectives and multiple context maps for those perspectives
+
+### Small context maps for explicit questions
+
+Context Maps are able to answer a high variety of questions such as:
+
+- how does the model of a given system propagate through an application landscape?
+- which kind of influence does a certain team have on others?
+- who has an influence on a given team?
+- how are politics being played?
+
+As you can see: these questions are very specific and we can answer them based on a big context map but such a context map will sooner or later turn into an information overload.
+
+Therefore: 
+
+Work with smaller context maps, aimed to answer specific questions. Only include those patterns to these smaller context maps that help you in answering these questions.
+
 ## Context Map Cheat Sheet
 
 Here is a cheat sheet containing brief descriptions of the context mapping patterns:
