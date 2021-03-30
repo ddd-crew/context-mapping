@@ -113,6 +113,14 @@ Therefore:
 
 Work with smaller context maps, aimed to answer specific questions. Only include those patterns to these smaller context maps that help you in answering these questions.
 
+### Document and explain the patterns you are going to use
+
+Context Mapping is a powerful technique to visualize relationships between systems and teams. However they can become hard to understand for people who are not experienced with Domain-Driven Design or the context mapping patterns. Even some pattern names are not self-explanatory for certain groups of stakeholders and the same applies to some of the definitions.
+
+Therefore:
+
+Before you start drawing context maps you should decide which of the patterns you are going to use and you will do yourself and the stakeholders of your context map a big favour by providing an explanation of those patterns. Make sure that all folks working with your context map do understand the patterns. Examples are always a good idea for such explanations.
+
 ## Context Map Cheat Sheet
 
 Here is a cheat sheet containing brief descriptions of the context mapping patterns:
