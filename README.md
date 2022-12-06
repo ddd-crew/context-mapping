@@ -71,7 +71,7 @@ The teams must cooperate on the evolution of their interfaces to accommodate the
 
 #### Published Language
 
-<img src="Published Language" alt="resources/published-language.jpg" width=300/>
+<img src="resources/published-language.jpg" alt="Published Language" width=300/>
 
 "The translation between the models of two bounded contexts requires a common language. [...] Use a well-documented shared language that can express the necessary domain information as a common medium of communication, translating as necessary into and out of that language." ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
 
