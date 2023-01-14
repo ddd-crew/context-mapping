@@ -1,8 +1,8 @@
 # Context Mapping
 
-Context Maps describe the contact between bounded contexts and teams with a collection of patterns. There are nine context map patterns and three different team relationships. The context map patterns describe a variety of perspectives like service provisioning, model propagation or governance aspects. This diversity of perspectives enables you to get an holisitic overview of team and bounded context relationships.
+Context Maps describe the contact between bounded contexts and teams with a collection of patterns. There are nine context map patterns and three different team relationships. The context map patterns describe a variety of perspectives like service provisioning, model propagation or governance aspects. This diversity of perspectives enables you to get a holistic overview of team and bounded context relationships.
 
-Context Maps can be used to analyze existing systems or application landscapes but they are also suitable for upfront design considerations. However, we have realized that many folks struggle to get started with the context mapping patterns based on the definitions in the exsiting DDD books. This GitHub repository aims to give you some help with context maps with a cheat sheet and a starter kit for Miro.
+Context Maps can be used to analyze existing systems or application landscapes, but they are also suitable for upfront design considerations. However, we have realized that many folks struggle to get started with the context mapping patterns based on the definitions in the existing DDD books. This GitHub repository aims to give you some help with context maps with a cheat sheet and a starter kit for Miro.
 
 ## Overview of the context map team relationships and patterns
 
@@ -12,7 +12,7 @@ Context Maps can be used to analyze existing systems or application landscapes b
 
 <img src="resources/mutual-dependent.jpg" alt="Mutually Dependent" width=300/>
 
-Two teams or bounded contexts are mutually dependent when their software artifacts or systems need to be delivered together to be successful and work. You will often see a close, reciprocal link between data, functionality and capabilities of these teams. Those teams also need a lot of communication between each ofther in order to coordinate their efforts (see Partnership pattern).
+Two teams or bounded contexts are mutually dependent when their software artifacts or systems need to be delivered together to be successful and work. You will often see a close, reciprocal link between data, functionality and capabilities of these teams. Those teams also need a lot of communication between each other in order to coordinate their efforts (see Partnership pattern).
 
 #### Upstream Downstream
 
@@ -92,10 +92,10 @@ A (part of a) system which is a mess by having mixed models and inconsistent bou
 
 ## Best practices for Context Maps
 
-There is no need to put all the patterns and team relationships into one big context map. Such a context map will grow over time and it will become hard to understand. You will be forced to explain such a complex context map to big amount of various stakeholders who all have different perspectives due to their roles or the nature of their work. Therefore, it is recommended to mind those hints:
+There is no need to put all the patterns and team relationships into one big context map. Such a context map will grow over time, and it will become hard to understand. You will be forced to explain such a complex context map to big amount of various stakeholders who all have different perspectives due to their roles or the nature of their work. Therefore, it is recommended to mind those hints:
 
 - Prefer small context maps for explicit questions
-- Document and explain the patterns your are going to use
+- Document and explain the patterns you are going to use
 - Work with different perspectives and multiple context maps for those perspectives
 
 ### Small context maps for explicit questions
@@ -107,7 +107,7 @@ Context Maps are able to answer a high variety of questions such as:
 - who has an influence on a given team?
 - how are politics being played?
 
-As you can see: these questions are very specific and we can answer them based on a big context map but such a context map will sooner or later turn into an information overload.
+As you can see: these questions are very specific, and we can answer them based on a big context map but such a context map will sooner or later turn into an information overload.
 
 Therefore: 
 
@@ -115,11 +115,11 @@ Work with smaller context maps, aimed to answer specific questions. Only include
 
 ### Document and explain the patterns you are going to use
 
-Context Mapping is a powerful technique to visualize relationships between systems and teams. However they can become hard to understand for people who are not experienced with Domain-Driven Design or the context mapping patterns. Even some pattern names are not self-explanatory for certain groups of stakeholders and the same applies to some of the definitions.
+Context Mapping is a powerful technique to visualize relationships between systems and teams. However, they can become hard to understand for people who are not experienced with Domain-Driven Design or the context mapping patterns. Even some pattern names are not self-explanatory for certain groups of stakeholders and the same applies to some of the definitions.
 
 Therefore:
 
-Before you start drawing context maps you should decide which of the patterns you are going to use and you will do yourself and the stakeholders of your context map a big favour by providing an explanation of those patterns. Make sure that all folks working with your context map do understand the patterns. Examples are always a good idea for such explanations.
+Before you start drawing context maps you should decide which of the patterns you are going to use, and you will do yourself and the stakeholders of your context map a big favour by providing an explanation of those patterns. Make sure that all folks working with your context map do understand the patterns. Examples are always a good idea for such explanations.
 
 ## Context Map Cheat Sheet
 
