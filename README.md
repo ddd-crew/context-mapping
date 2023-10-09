@@ -54,7 +54,7 @@ The team providing an Open-host Service is usually in an upstream position where
 
 <img src="resources/shared-kernel.jpg" alt="Shared Kernel" width=300/>
 
-"Designate with an explicit boundary some subset of the domain model that the teams agree to share. Keep this kernel small.Within this boundary, include, along with this subset of the model, the subset of code or of the database design associated with that part of the model. This explicitly shared stuff has special status, and shouldn’t be changed without consultation with the other team." ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
+"Designate with an explicit boundary some subset of the domain model that the teams agree to share. Keep this kernel small. Within this boundary, include, along with this subset of the model, the subset of code or of the database design associated with that part of the model. This explicitly shared stuff has special status, and shouldn’t be changed without consultation with the other team." ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
 
 #### Partnership
 
@@ -75,7 +75,7 @@ The teams must cooperate on the evolution of their interfaces to accommodate the
 
 "The translation between the models of two bounded contexts requires a common language. [...] Use a well-documented shared language that can express the necessary domain information as a common medium of communication, translating as necessary into and out of that language." ([Source: DDD Reference by Eric Evans](https://www.domainlanguage.com/ddd/reference/))
 
-Widely known examples for a Published Language are iCalendar or vCard. Published language is often combined with an open-host service.
+Widely known examples of a Published Language are iCalendar or vCard. Published language is often combined with an open-host service.
 
 #### Separate Ways
 
