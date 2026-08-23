@@ -4,6 +4,10 @@ Context Maps describe the contact between bounded contexts and teams with a coll
 
 Context Maps can be used to analyze existing systems or application landscapes, but they are also suitable for upfront design considerations. However, we have realized that many folks struggle to get started with the context mapping patterns based on the definitions in the existing DDD books. This GitHub repository aims to give you some help with context maps with a cheat sheet and a starter kit for Miro.
 
+## Translations
+
+- [Brazilian Portuguese (pt-BR)](translations/pt-br/README.md)
+
 ## Overview of the context map team relationships and patterns
 
 ### Team Relationships
